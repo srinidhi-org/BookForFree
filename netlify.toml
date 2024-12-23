@@ -1,3 +1,4 @@
 [build]
-command = "flutter build web --release"
-publish = "build/web"
+  base = "your-project-directory"
+  publish = "build/web"
+  command = "bash setup-flutter.sh && flutter build web --release"
