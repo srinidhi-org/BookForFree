@@ -2,3 +2,5 @@
   base = "your-project-directory"
   publish = "build/web"
   command = "bash setup-flutter.sh && flutter build web --release"
+[build.environment]
+  CHROME_EXECUTABLE = "/usr/bin/chromium-browser"
