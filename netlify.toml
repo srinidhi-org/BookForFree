@@ -1,6 +1,10 @@
+# Configuration for Netlify builds
 [build]
-  base = "your-project-directory"
-  publish = "build/web"
-  command = "bash setup-flutter.sh && flutter build web --release"
+  base = "."  # Set this to the root directory of your project if your Flutter app is at the root, or adjust to your actual project directory.
+  publish = "build/web"  # Directory where the build output should be found.
+  command = "bash setup-flutter.sh && flutter build web --release"  # Command to build your Flutter web app.
+
+# Environment settings for the build process
 [build.environment]
-  CHROME_EXECUTABLE = "/usr/bin/chromium-browser"
+  FLUTTER_VERSION = "3.10.6"  # Specify the Flutter version you're targeting for build consistency.
+  # CHROME_EXECUTABLE = "/usr/bin/chromium-browser"  # Remove if not needed for your build process.
