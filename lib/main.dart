@@ -6,7 +6,7 @@ void main() {
 }
 
 class BookForFreeApp extends StatelessWidget {
-  const BookForFreeApp({Key? key}) : super(key: key);
+  const BookForFreeApp({super.key});
 
   @override
   Widget build(BuildContext context) {

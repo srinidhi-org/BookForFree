@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'booking_screen.dart';
 
 class CinemasListScreen extends StatelessWidget {
-  const CinemasListScreen({Key? key}) : super(key: key);
+  const CinemasListScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
