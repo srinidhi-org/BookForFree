@@ -7,4 +7,4 @@
 # Environment settings for the build process
 [build.environment]
   FLUTTER_VERSION = "3.10.6"  # Specify the Flutter version you're targeting for build consistency.
-  CHROME_EXECUTABLE = "/usr/bin/chromium-browser"  # Remove if not needed for your build process.
+#  CHROME_EXECUTABLE = "/usr/bin/chromium-browser"  # Remove if not needed for your build process.
