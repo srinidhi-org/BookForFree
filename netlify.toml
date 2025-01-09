@@ -2,7 +2,7 @@
 [build]
   base = "."  # Set this to the root directory of your project if your Flutter app is at the root, or adjust to your actual project directory.
   publish = "build/web"  # Directory where the build output should be found.
-  command = "bash setup-flutter.sh && flutter build web --release"  # Command to build your Flutter web app.
+  command = "bash setup-flutter.sh"  # Command to build your Flutter web app.
 
 # Environment settings for the build process
 [build.environment]
